@@ -77,6 +77,7 @@ public class TransData {
                     if (X != null) {
                         xdata = X;
                     }
+
                     alllocation += xdata;
                 }
                 //取他这个词的位置的平均值

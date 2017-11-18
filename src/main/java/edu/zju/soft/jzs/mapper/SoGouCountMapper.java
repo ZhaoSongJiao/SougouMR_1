@@ -39,6 +39,5 @@ public class SoGouCountMapper extends Mapper<LongWritable,Text,Text,SoGouData> {
         {
             System.out.println("数据:"+line+"可能有问题");
         }
-        /*super.map(key, value, context);*/
     }
 }

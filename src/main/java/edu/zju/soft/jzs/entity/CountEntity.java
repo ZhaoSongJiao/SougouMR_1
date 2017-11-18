@@ -46,7 +46,6 @@ public class CountEntity implements WritableComparable {
     }
 
     public void write(DataOutput out) throws IOException {
-
            // value.write(out);
             out.writeUTF(value.toString());
             out.writeLong(times);

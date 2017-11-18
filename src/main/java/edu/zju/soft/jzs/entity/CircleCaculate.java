@@ -85,6 +85,7 @@ public class CircleCaculate implements WritableComparable{
     {
         long xcount=Math.abs(data.getX().get()-thecenter.getX().get());
 //        long ycount=data.getY().get()-thecenter.getY().get();
+
         return xcount;
     }
 

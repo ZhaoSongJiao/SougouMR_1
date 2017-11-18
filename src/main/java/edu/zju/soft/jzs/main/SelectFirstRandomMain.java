@@ -73,6 +73,7 @@ public class SelectFirstRandomMain {
         return res;
     }
 
+
     public static void main(String[] args) throws Exception
     {
         theFirstCenters=initTheFirstCenter();

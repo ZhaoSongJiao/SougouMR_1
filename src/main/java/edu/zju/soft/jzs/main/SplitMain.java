@@ -34,6 +34,7 @@ public class SplitMain {
     }
 
 
+
     public static void main(String[] args) throws Exception {
         String inputfilepath="D:\\hadoopdata\\2017-11-16-10-52-38-096sogoucount__out\\part-r-00000";
         String outputfiledir="D:\\hadoopdata\\2017-11-16-10-52-38-096sogoucount_split";

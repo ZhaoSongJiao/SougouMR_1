@@ -21,4 +21,5 @@ public class WordSplitReducer extends Reducer<Text,LongWritable,Text,LongWritabl
         }
         context.write(key,new LongWritable(count));
     }
+
 }

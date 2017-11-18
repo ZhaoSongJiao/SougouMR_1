@@ -88,7 +88,6 @@ public class VectorQualityEntity implements WritableComparable {
         this.setTimes(new LongWritable(in.readLong()));
     }
 
-
     /**
      * 与HashCode一起重写，
      * 主要适用于在set时候进行判定

@@ -15,4 +15,5 @@ public class OrderReducer extends Reducer<CountEntity,Text,Text,LongWritable> {
     protected void reduce(CountEntity key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         context.write(key.getValue(),new LongWritable(key.getTimes()));
     }
+
 }

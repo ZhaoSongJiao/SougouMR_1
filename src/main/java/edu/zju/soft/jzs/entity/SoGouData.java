@@ -161,6 +161,7 @@ public class SoGouData implements WritableComparable {
         }
     }
 
+
     public void write(DataOutput out) throws IOException {
         out.writeUTF(ts.toString());
         out.writeUTF(uid.toString());

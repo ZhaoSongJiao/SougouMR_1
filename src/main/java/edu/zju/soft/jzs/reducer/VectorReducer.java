@@ -29,5 +29,6 @@ public class VectorReducer extends Reducer<IntWritable,VectorQualityEntity,Text,
             caculate.addNewFlower(entity);
         }
         context.write(caculate.getThecenter().getValue(),caculate);
+
     }
 }

@@ -27,4 +27,5 @@ public class WordSplitMapper extends Mapper<LongWritable,Text,Text,LongWritable>
             context.write(new Text(word.getText()),new LongWritable(times));
         }
     }
+
 }

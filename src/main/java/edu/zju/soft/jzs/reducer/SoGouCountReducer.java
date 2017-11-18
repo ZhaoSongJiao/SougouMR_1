@@ -25,6 +25,6 @@ public class SoGouCountReducer extends Reducer<Text,SoGouData,Text,LongWritable>
         entity.setTimes(count);
 
         context.write(key,new LongWritable(count));
-        //        super.reduce(key, values, context);
+
     }
 }

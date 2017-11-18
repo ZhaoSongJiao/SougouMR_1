@@ -26,7 +26,7 @@ public class OrderMapper extends Mapper<LongWritable,Text,CountEntity,Text> {
         }
         catch (Exception ex)
         {
-
+            System.out.println("数据lines:"+value.toString()+"有问题");
         }
     }
 }

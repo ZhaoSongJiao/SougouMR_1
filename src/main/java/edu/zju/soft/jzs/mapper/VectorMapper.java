@@ -15,6 +15,7 @@ import java.io.IOException;
  */
 public class VectorMapper extends Mapper<LongWritable,Text,IntWritable,VectorQualityEntity> {
 
+
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         String[] line=value.toString().split("\t");
