@@ -15,7 +15,6 @@ import java.io.IOException;
 public class SoGouCountReducer extends Reducer<Text,SoGouData,Text,LongWritable> {
     @Override
     protected void reduce(Text key, Iterable<SoGouData> values, Context context) throws IOException, InterruptedException {
-        //System.out.println("count reducer");
         long count=0;
         for(SoGouData value:values)
         {
